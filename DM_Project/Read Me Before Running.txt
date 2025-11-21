@@ -6,6 +6,13 @@ Project: Air Quality Analysis (Delhi, India, 2015–2020)
 Course: Data Mining Group Project
 Group: Group 6
 
+Before running any script, set the working directory to the project folder:
+setwd("YOUR_PROJECT_FOLDER_PATH")
+Example:
+setwd("D:/RStudio_store/DM_Project")
+You only need to do this once at the beginning of a session.
+Setting setwd() ensures all file operations (reading/writing CSV) work correctly.
+
 --------------------------------
 Running Instructions
 --------------------------------
@@ -40,4 +47,5 @@ Expected Output
 - PCA variance plots (Scree Plot & Cumulative Variance)
 - PCA scatter plot colored by AQI categories
 - SVM confusion matrix and model accuracy (~0.77)
+
 - SVM decision boundary visualization
